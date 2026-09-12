@@ -1,0 +1,26 @@
+.FIRST
+{
+background-color: pink;
+width:800px ;
+height: 600px;
+border: 1px black solid;
+display: grid;
+grid-template-columns: repeat(8,1fr);
+grid-template-rows: repeat(5,1fr);
+gap: 10px;
+}
+
+.FIRST div
+{
+background-color: orange;
+padding: 15px;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.sam
+{
+display: grid;grid-column: 1 / 9;
+
+}

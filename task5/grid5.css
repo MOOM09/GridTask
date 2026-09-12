@@ -1,0 +1,66 @@
+.FIRST {
+  width: 1000px; 
+  height: 600px;
+  display: grid;
+
+  grid-template-columns: 3fr 7fr;  
+  grid-template-rows: 1.5fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.firstt {
+  display: grid;
+  grid-template-columns: 1fr;      
+  grid-template-rows: 1.5fr 1fr;   
+  gap: 10px;
+}
+
+.second {
+  font-size: small;
+  display: grid;
+  color: #000;
+  grid-template-columns: 2fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 10px;
+  grid-template-areas: 
+      "three three"
+      "four five"
+      "four six";
+}
+
+
+.one   { 
+  font-size: small;
+  background-color: #0000ff;
+   color: #000;
+   
+   }
+.two   { 
+  font-size: small;
+  background-color: #b3b3ff;
+  color: #000;
+ }
+.three {
+   grid-area: three;
+    background-color: #1e1e2f; 
+    color: #000;
+     
+  }
+.four  { grid-area: four;
+    background-color: #a8f0c6;
+   }
+.five  { grid-area: five; 
+   background-color: #a8f0c6; 
+  }
+.six   { grid-area: six;  
+   background-color: #f04a6a;
+   }
+
+
+.FIRST div{
+    border-radius: 15px;
+    padding: 8px;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.FIRST
+{
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 20px 40px;
+  margin-right:10px;
+}
+
+.FIRST div
+{
+    background-color:white;
+    width: 300px;
+    height: 200px;
+  
+    
+}

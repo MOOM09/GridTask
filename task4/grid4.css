@@ -1,0 +1,28 @@
+.FIRST {
+  width: 800px; 
+  height: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "one two" 
+    "three four";
+  gap: 10px 10px;
+  justify-content: flex-start;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
