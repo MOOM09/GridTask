@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1250px;
+    height: 390px;
+}
+
+.row {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 25%;
+    background-color: #eee;
+    margin: 2.5px;
+    padding: 5px;
+}
+
+.subs {
+    width: 25%;
+    background-color: #eee;
+    margin: 2.5px;
+    padding: 5px;
+    display: flex;
+}
+
+/* 4 Sub elements مثل الصورة الأولى والثالثة */
+.four {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.four .sub {
+    width: calc(50% - 5px);
+    height: calc(50% - 5px);
+}
+
+/* الصف الثاني: Sub 1 فوق Sub 2 */
+.two-column {
+    flex-direction: column;
+}
+
+.two-column .sub {
+    width: 100%;
+    height: 50%;
+}
+
+/* الصف الثاني: Sub 1 بجانب Sub 2 */
+.vertical {
+    flex-direction: row;
+}
+
+.vertical .sub {
+    width: 50%;
+    height: 100%;
+}
+
+/* شكل الـ Sub */
+.sub {
+    background-color: lightgray;
+    margin: 2.5px;
+    padding: 5px;
+}
